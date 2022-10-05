@@ -1,48 +1,70 @@
 body{
     background-image: url(city-g7a61dce51_1920.jpg);
 }
-#navbar {
-    background-color: tomato;
 
-}
-#navbar ul li {
+#navbar li, a{
     display: inline-block;
-    padding: 20px 0px;
-    padding-right: 20px;
-    border-right: 1px solid black;
-
-}
-
-#navbar ul{
-    margin-top: 20px;
-    text-align: center;
-}
-
-.uni-padding {
-    padding: 0 7%;
-}
-a:hover{
-    background-color: black;
+    padding: 10px 10px;
     color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
 }
-
-#navbar ul li a{
-text-decoration: none;
-color: black;
-font-size: 20px;
-}
-body {
+#navbar ul{
     background-color: black;
 }
-
-.head h1{
-    color: aquamarine;
-    font-size: 80px;
+h1{
+    font-size: 120px;
     text-align: center;
-    font-family: 'Libre Baskerville', serif;
+    background-image: linear-gradient(red,yellow);
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
-
- li:first-child {
-    border-left: 1px solid black;
- }
+.sec1 p{
+    width: 60%;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border: 3px solid red;
+    padding: 10px;
+    display: inline-block;
+}
+h3{
+    font-size: 80px;
+    color: aqua;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.side{
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    padding: 0;
+}
+.formm label{
+    color: white;
+    font-size:35px;
+    margin-right: 20px;
+}
+.formm input{
+    height: 35px;
+    width: 300px;
+    /* margin-left: 27px; */
+}
+.formm{
+    margin-top: 20px;
+}
+.input{
+    margin-left: 27px;
+}
+.submit{
+    margin-left: 140px;
+    width: 306px;
+    height: 30px;
+}
+.end p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
